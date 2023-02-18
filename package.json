@@ -12,6 +12,7 @@
   },
   "author": "",
   "license": "MIT",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/RyougiTale/self-maintain/issues"
   },
