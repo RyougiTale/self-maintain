@@ -70,6 +70,17 @@ async function selectElementWithContent(page, selectorString, descripsion) {
 }
 
 
+function readFromFile() {
+    // read json from file
+    const fs = require('fs');
+    const path = require('path');
+    const filePath = path.join(__dirname, 'config.json');
+    // read
+    fs.readFileSync(filePath, 'utf8', (err, data) => {
+        console.log(err);
+        console.log(data);
+    });
+}
 
 (async () => {
     const browser = await puppeteer.launch({ headless: false, devtools: true, });

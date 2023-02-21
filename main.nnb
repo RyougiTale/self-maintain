@@ -1,0 +1,30 @@
+{
+    "cells": [
+        {
+            "language": "typescript",
+            "source": [
+                "import puppeteer from 'puppeteer';\r\nimport readline from 'readline';"
+            ],
+            "outputs": [
+                {
+                    "items": [
+                        {
+                            "mime": "application/vnd.code.notebook.stdout",
+                            "value": [
+                                "",
+                                ""
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "language": "typescript",
+            "source": [
+                ""
+            ],
+            "outputs": []
+        }
+    ]
+}
